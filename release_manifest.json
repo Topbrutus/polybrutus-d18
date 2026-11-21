@@ -3,7 +3,7 @@
   "dimension": 18,
   "repository": "Topbrutus/polybrutus-d18",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 23,
   "pairs": 253,
   "affine_rank": 18,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24409067",
   "parent_github_tag": "Topbrutus/polybrutus-d17@v0.1.0",
   "parent_tag_commit": "1ef37f156292aa80f8c3f5d07bb889dc4b4492ab",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "b42aae51d92b817008c823a34162e1eb94c13cae",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24409207,
+  "zenodo_doi": "10.5281/zenodo.24409207",
   "scientific_delta": "Exact rank-18 23-vertex metric preserving 231 predecessor distances; selected graph eigenvalue 23/2 multiplicity 12.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted separate exact verifier code, scientific calculations, writing and release; not an author.",
-  "verification": "Primary and separately coded independent rational verifiers PASS locally; GitHub CI pending",
-  "next_action": "Create private D18 GitHub, verify both independent programs in CI, freeze science tag, stage one checked Zenodo draft and publish only after all integrity gates."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "gram_psd_exact_factorization": "PASS",
+    "previous_labelled_pairs": "231/231 PASS",
+    "new_labelled_pairs": "22/22 PASS",
+    "independent_rational_pair_distances": "253/253 PASS",
+    "negative_controls": "4/4 PASS",
+    "chosen_ideal_graph_eigenvalues": "23/2 x12; 11 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only on NEXT user go start D19 from frozen Polybrutus D18 source tag v0.1.0: 24 points, 276 labelled pairs, preserve 253 previous distances, add 23 squared distances of 2R², target affine rank 19. Do not start D19 until then.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44846869234,
+    "conclusion": "success",
+    "head_sha": "b42aae51d92b817008c823a34162e1eb94c13cae"
+  },
+  "github_main_note": "Post-publication citation and SHA256 index commits advance main but not the immutable science tag.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D18_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 189961,
+      "sha256": "9135fa3db9bd4372f259fb331872a1627386ade534293862b433c6de46da5956"
+    },
+    {
+      "name": "POLYBRUTUS_18D_NOTE.pdf",
+      "size": 168107,
+      "sha256": "c2d7ee8fb98cf5f0c7588a30f3d989c2dd8f0a1b45aab7783ce095e481ab2975"
+    },
+    {
+      "name": "certificate_d18.json",
+      "size": 20722,
+      "sha256": "6a000300d7644baa7f18ef49fd25ca0b67c4bcde99df25ebf6fea4e487fdd26b"
+    }
+  ],
+  "publication_approval": "Topbrutus explicitly established that each 'go' authorizes one new dimension with separate GitHub and Zenodo publication, and said go for D18."
 }
