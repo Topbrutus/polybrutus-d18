@@ -1,5 +1,14 @@
 # POLYBRUTUS 18D — Exact Euclidean 23-point metric and a twelvefold ideal graph mode
 
+## Official verified public science release
+
+- **Zenodo DOI:** [10.5281/zenodo.24409207](https://doi.org/10.5281/zenodo.24409207), [public Zenodo record 24409207](https://zenodo.org/records/24409207), checked through public Zenodo REST API.
+- **Frozen scientific source:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d18/tree/v0.1.0), commit `b42aae51d92b817008c823a34162e1eb94c13cae`.
+- **Successful CI on the frozen source:** [GitHub Actions D18 run 44846869234](https://github.com/Topbrutus/polybrutus-d18/actions/runs/44846869234); two independent verifiers PASS.
+- **Zenodo archival files:** immutable Git-tagged source ZIP, mathematical PDF note, and exact 253-pair labelled JSON certificate; remote checksums publicly verified.
+- **Scientific limits:** exact 18D affine Euclidean metric and selected ideal weighted-graph model, not a general novel theorem or physical extra dimension.
+
+
 **Human researcher and scientific responsibility:** Gabriel St-Pierre, independent researcher.  
 **Scientific status:** exact computational mathematics preprint, not independently human peer reviewed.  
 **Generative AI disclosure:** OpenAI ChatGPT (Astra) substantially assisted the two separately coded mathematical checkers, chosen theoretical graph model, provenance, scientific drafting and archival workflow. AI is not an author.
